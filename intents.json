@@ -1,0 +1,85 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hello",
+          "Good day",
+          "Howdy"
+        ],
+        "responses": [
+          "Hey there! How can I assist you today?",
+          "Hello! How may I help you?",
+          "Hi there! What can I do for you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you", "Thanks, bye"],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "Bye! Take care and visit us again!",
+          "Thank you for visiting. Have a wonderful day!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Appreciate it", "Thank you so much"],
+        "responses": ["You're welcome!", "No problem!", "Happy to help!"]
+      },
+      {
+        "tag": "products",
+        "patterns": [
+          "What products do you offer?",
+          "What do you sell?",
+          "What are your available products?",
+          "Can you tell me about your product range?"
+        ],
+        "responses": [
+          "We offer a wide range of products including electronics, clothing, accessories, and more.",
+          "Our product range includes electronics, clothing, accessories, and more."
+        ]
+      },
+      {
+        "tag": "payment_methods",
+        "patterns": [
+          "What payment methods do you accept?",
+          "How can I pay for my order?",
+          "What are the available payment options?",
+          "Do you accept credit cards and online payment?"
+        ],
+        "responses": [
+            "We accept various payment methods including credit cards, debit cards, GCash, and Maya.",
+            "You can pay for your order using credit cards, debit cards, GCash, or Maya."
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "When will my order arrive?",
+          "What is the estimated delivery time?",
+          "Can you provide information about shipping duration?"
+        ],
+        "responses": [
+          "Delivery usually takes 3-5 business days within Metro Manila, and 5-7 business days for provincial areas.",
+          "Typically, your order will arrive within 3-5 business days if you're in Metro Manila, and 5-7 business days for provincial areas."
+        ]
+      },
+      {
+        "tag": "order_tracking",
+        "patterns": [
+          "Can I track my order?",
+          "How can I check the status of my order?",
+          "Is order tracking available?",
+          "What is the process to track my order?"
+        ],
+        "responses": [
+          "Yes, you can track your order by logging into your account and visiting the 'Order Status' page. You will find real-time updates on the location and status of your package.",
+          "Absolutely! Simply log in to your account and go to the 'Order Status' section. There, you'll be able to track the progress of your order."
+        ]
+      }
+    ]
+  }  

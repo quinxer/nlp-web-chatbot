@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>KarlShaft</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>KarlShaft</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Electronics</a></li>
+                    <li><a href="#">Clothing</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">18+</a></li>
+                </ul>
+            </nav>
+
+            <form class="search-form">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </header>
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="{{ url_for('static', filename='images/png.png') }}"
+                            alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">ChatKarl</h4>
+                        <p class="chatbox__description--header">How can I help you pars?</p>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button">Send</button>
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button><img src="{{ url_for('static', filename='images/small.svg') }}" /></button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+
+</html>
